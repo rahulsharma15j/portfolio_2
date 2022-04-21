@@ -23,6 +23,25 @@
         <li class="navbar-list_item">My Skills</li>
         <li class="navbar-list_item">Contact Me</li>
       </ul>
+      <div id="lines" onclick="toggle('show')">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <div id="backdrop"></div>
+      <div id="mobile-navbar">
+        <div class="mobile-header">
+          <div></div>
+          <img src="./images/close.svg" alt="" onclick="toggle('hide')" />
+        </div>
+        <ul class="mobile-navbar-list">
+          <li class="mobile-navbar-list_item">Home</li>
+          <li class="mobile-navbar-list_item">My Projects</li>
+          <li class="mobile-navbar-list_item">My Skills</li>
+          <li class="mobile-navbar-list_item">Contact Me</li>
+        </ul>
+      </div>
     </header>
 
     <!--Navigation ends-->
@@ -105,5 +124,22 @@
       </div>
     </section>
     <!--Section 3 ends-->
+
+    <!--Section 4 starts-->
+    <section class="section-4">
+      <h2 class="section-4__heading">Contact Me</h2>
+      <div class="contact">
+        <div class="email">
+          <span>Email: </span>
+          <p>myemail@xyz.com</p>
+        </div>
+        <div class="phone">
+          <span>Phone: </span>
+          <p>+ 2378654565432</p>
+        </div>
+      </div>
+    </section>
+    <!--Section 4 ends-->
+    <script src="script.js"></script>
   </body>
 </html>
